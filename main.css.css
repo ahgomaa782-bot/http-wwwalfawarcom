@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 2000;
+    }
+/*header start*/
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px.100px;
+    transition: 0.5s ease;
+}
+header.sticky{
+    background-color: #fff;
+    padding:10px 100px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+header .logo{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}   
+ header.sticky .logo{
+    color: #111;
+}
+header .nav_ul{
+        position: relative;
+        display: flex;
+}
+header .nav_ul li{
+    list-style: none;
+    margin left: 20px;
+        }
+header .nav_ul li a{
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #d82727;
+   }
+   header .nav_ul li a:hover{
+    color: rgb(0, 0, 0);
+   }
+header .nav_ul li a:hover{
+    color: darkgoldenrod;
+}
+
+/*banner section start*/
+
+.banner{
+    width: 100;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(imag.jpg);
+    background-size: cover;
+    }
+    .banner .container{
+        text-align: center;
+        width: 900px;
+     }
+     .banne .container h2{
+        color: #fff;
+        font-size: 50px;
+        margin-bottom: 20px;
+     }
+     .banner .container p{
+        font-size: 20px;
+        caret-color: #fff;
+        }
+        .btn{
+            display: inline-block;
+            margin-top: 20px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            background-color: darkorange;
+            padding: 10px 20px;
+            transition: 0.3s;
+        }
+             .btn:hover{
+            scale: 1.2;
+            transition: 0.3;
+             }
+            
